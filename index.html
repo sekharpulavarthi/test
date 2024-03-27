@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+    <script
+      type="module"
+      src="https://gradio.s3-us-west-2.amazonaws.com/3.39.0/gradio.js"
+    ></script>
+  </head>
+  <body>
+    <div id="root">
+      <h1>React is Here</h1>
+      <gradio-app
+        src="https://jyoshna-651-mygenaichatbot.hf.space"
+      ></gradio-app>
+      <div style="width: 500px;">
+        <img src="images.png" style="width: 270px;" />
+        <img src="images.png" style="width: 270px;" />
+      </div>
+      <a href="https://google.com" target="_blank">Hello</a>
+      <p style="width: 100px; height: 100px;">This is a paragraph</p>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
